@@ -1,0 +1,15 @@
+/Users/admin/develop/refactory/dotnet/tes/bin/Debug/net7.0/tes
+/Users/admin/develop/refactory/dotnet/tes/bin/Debug/net7.0/tes.deps.json
+/Users/admin/develop/refactory/dotnet/tes/bin/Debug/net7.0/tes.runtimeconfig.json
+/Users/admin/develop/refactory/dotnet/tes/bin/Debug/net7.0/tes.dll
+/Users/admin/develop/refactory/dotnet/tes/bin/Debug/net7.0/tes.pdb
+/Users/admin/develop/refactory/dotnet/tes/obj/Debug/net7.0/tes.csproj.AssemblyReference.cache
+/Users/admin/develop/refactory/dotnet/tes/obj/Debug/net7.0/tes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/develop/refactory/dotnet/tes/obj/Debug/net7.0/tes.AssemblyInfoInputs.cache
+/Users/admin/develop/refactory/dotnet/tes/obj/Debug/net7.0/tes.AssemblyInfo.cs
+/Users/admin/develop/refactory/dotnet/tes/obj/Debug/net7.0/tes.csproj.CoreCompileInputs.cache
+/Users/admin/develop/refactory/dotnet/tes/obj/Debug/net7.0/tes.dll
+/Users/admin/develop/refactory/dotnet/tes/obj/Debug/net7.0/refint/tes.dll
+/Users/admin/develop/refactory/dotnet/tes/obj/Debug/net7.0/tes.pdb
+/Users/admin/develop/refactory/dotnet/tes/obj/Debug/net7.0/tes.genruntimeconfig.cache
+/Users/admin/develop/refactory/dotnet/tes/obj/Debug/net7.0/ref/tes.dll
