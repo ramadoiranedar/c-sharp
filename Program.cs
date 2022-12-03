@@ -218,6 +218,16 @@
       Console.WriteLine(Math.Floor(9.99));
       
       Console.WriteLine(separator);
+
+      /**
+      * Strings
+      **/
+      string txt = "Hello World";
+      Console.WriteLine("The length of the txt string is: " + txt.Length);
+      Console.WriteLine(txt.ToUpper());   // Outputs "HELLO WORLD"
+      Console.WriteLine(txt.ToLower());   // Outputs "hello world"
+
+      Console.WriteLine(separator);
     }
   }
 }
