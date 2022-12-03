@@ -1,5 +1,4 @@
-﻿
-namespace ConsoleApplication
+﻿namespace ConsoleApplication
 {
   public class Program
   {
@@ -203,6 +202,20 @@ namespace ConsoleApplication
       Console.WriteLine(q == w && q != w);
       Console.WriteLine(q != w || q == w);
       Console.WriteLine(!(q > w));
+      
+      Console.WriteLine(separator);
+
+      /**
+      * Math
+      * The C# Math class has many methods that allows you to perform mathematical tasks on numbers.
+      **/
+      Console.WriteLine(Math.Max(5, 10));
+      Console.WriteLine(Math.Min(5, 10));
+      Console.WriteLine(Math.Sqrt(34));
+      Console.WriteLine(Math.Abs(-100));
+      Console.WriteLine(Math.Round(9.22));
+      Console.WriteLine(Math.Ceiling(9.10));
+      Console.WriteLine(Math.Floor(9.99));
       
       Console.WriteLine(separator);
     }
