@@ -44,6 +44,53 @@ namespace ConsoleApplication
       Console.WriteLine(women);
       Console.WriteLine("Hello my name is " + name + " (" + age + "). i am a " + gender + " with weight " + weight + " and i was live in " + city + ", " + country + ". My blood is \"" + blood + "\", my married status is " + isMarried + ". I have device " + macbook + " for coding.");
       Console.WriteLine("simpleCalculation " + simpleCalculation);
+
+
+      /**
+      * Type Casting
+      **/
+      /* implicit */
+      int simpleInt = 8;
+      double simpleDouble = simpleInt;
+
+      Console.WriteLine(simpleInt);
+      Console.WriteLine(simpleDouble);
+
+      /* explicit */
+      double myDouble = 7.89D;
+      int myInt = (int) myDouble;
+
+      Console.WriteLine(myDouble);
+      Console.WriteLine(myInt);
+
+      /* Conversion Methods */
+      int testInt = 10;
+      double testDouble = 5.25;
+      bool testBool = true;
+
+      Console.WriteLine(Convert.ToString(testInt));    // int to string
+      Console.WriteLine(Convert.ToDouble(testInt));    // int to double
+      Console.WriteLine(Convert.ToInt32(testDouble));  // double to int
+      Console.WriteLine(Convert.ToString(testBool));   // bool to string
+
+      /**
+      * User Input
+      **/
+      Console.WriteLine("Enter username:");
+
+      /* string */
+      string? userName = Console.ReadLine();
+      // Console.WriteLine(userName.GetType());
+      if (userName == "") {
+        userName = "administrator";
+      } 
+      Console.WriteLine("Username is: " + userName);
+
+      /* int */
+      Console.WriteLine("Enter your age:");
+      string? input = Console.ReadLine();
+      int? testAge = int.TryParse(input, out var a) ? a : default;
+      Console.WriteLine("Your age is: " + testAge);
     }
   }
 }
