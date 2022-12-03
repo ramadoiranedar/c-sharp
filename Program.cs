@@ -171,6 +171,40 @@ namespace ConsoleApplication
 
       Console.WriteLine(separator);
       
+      
+      /**
+      * Comparison Operators
+      * ==	  Equal to	                x == y	
+      * !=	  Not equal	                x != y	
+      * >	    Greater than	            x > y	
+      * <	    Less than	                x < y	
+      * >=	  Greater than or equal to	x >= y	
+      * <=	  Less than or equal to	    x <= y
+      **/
+      int xxx = 5;
+      int yyy = 3;
+      Console.WriteLine(xxx == yyy);
+      Console.WriteLine(xxx != yyy);
+      Console.WriteLine(xxx > yyy);
+      Console.WriteLine(xxx < yyy);
+      Console.WriteLine(xxx >= yyy);
+      Console.WriteLine(xxx <= yyy);
+      
+      Console.WriteLine(separator);
+
+      /**
+      * Logical Operators
+      * && 	Logical and	Returns True if both statements are true	x < 5 &&  x < 10	
+      * || 	Logical or	Returns True if one of the statements is true	x < 5 || x < 4	
+      * !	  Logical not	Reverse the result, returns False if the result is true	!(x < 5 && x < 10)
+      **/
+      int q = 5;
+      int w = 3;
+      Console.WriteLine(q == w && q != w);
+      Console.WriteLine(q != w || q == w);
+      Console.WriteLine(!(q > w));
+      
+      Console.WriteLine(separator);
     }
   }
 }
