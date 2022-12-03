@@ -11,7 +11,7 @@ namespace ConsoleApplication
       Console.WriteLine("HELLO WORLD"); // print ln
 
       /**
-      * comment , variables, and data types
+      * comment, variables, and data types
       **/
       string name = "damar";    // String
       int age = 23;             // Integer
