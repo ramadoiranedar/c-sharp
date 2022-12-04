@@ -259,6 +259,22 @@
 
       Console.WriteLine(separator);
 
+      /**
+      * Booleans
+      **/
+      bool isCSharpFun = true;
+      bool isFishTasty = false;
+      Console.WriteLine(isCSharpFun);   // Outputs True
+      Console.WriteLine(isFishTasty);   // Outputs False
+
+      Console.WriteLine(separator);
+
+      /* expression */
+      int aa = 10;
+      int bb = 9;
+      Console.WriteLine(aa > bb); // returns True, because 10 is higher than 9
+
+      Console.WriteLine(separator);
     }
   }
 }
