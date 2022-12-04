@@ -1,4 +1,5 @@
-﻿namespace ConsoleApplication
+﻿using static ConsoleApplication.Method;
+namespace ConsoleApplication
 {
   public class Program
   {
@@ -490,7 +491,42 @@
       }  
 
       Console.WriteLine(separator);
+
+      /** 
+      * METHODS 
+      **/
+      MyMethod();
+      MyMethod();
+      Console.WriteLine(separator);
+
+      MyName("Ario", "Damar");
+      Console.WriteLine(separator);
+
+      MyCountry("Rusia");
+      MyCountry();
+      MyCountry("England");
+      Console.WriteLine(separator);
+
+      int fx = MyAge();
+      Console.WriteLine(fx);
+      Console.WriteLine(separator);
+
+      (string mn, int ma) = NameAndAge();
+      Console.WriteLine(mn);
+      Console.WriteLine(ma);
+      Console.WriteLine(separator);
       
+      MyFamily(dad: "Jack", mom: "Sindy", sister: "Jenny");
+      Console.WriteLine(separator);
+
+      int myINT = PlusMethod(5, 5);
+      double myDOUBLE = PlusMethod(5.5, 5.5);
+      Console.WriteLine(myINT);
+      Console.WriteLine(myDOUBLE);
+      
+      Console.WriteLine(separator);
+
+      Console.WriteLine(separator);
     }
   }
 }
