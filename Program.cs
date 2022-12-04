@@ -494,6 +494,25 @@ namespace ConsoleApplication
       Console.WriteLine(separator);
 
       /** 
+      * MAP 
+      **/
+      var map = new Dictionary<int, string>();
+      string[] carBrands = {"SUZUKI", "TOYOTA", "HONDA", "HYUNDAI"};
+      int increment = 1;
+      foreach (var v in carBrands)
+      {
+        map.Add(increment++, v);
+      }
+
+      foreach (var v in map)
+      {
+        Console.WriteLine(v.Key);
+        Console.WriteLine(v.Value);
+      }
+      
+      Console.WriteLine(separator);
+
+      /** 
       * METHODS 
       **/
       MyMethod();
