@@ -275,6 +275,37 @@
       Console.WriteLine(aa > bb); // returns True, because 10 is higher than 9
 
       Console.WriteLine(separator);
+
+      /**
+      * If ... Else
+      **/
+      if (true) 
+      {
+        Console.WriteLine("true blocks 1");
+      }
+      Console.WriteLine(separator);
+
+      int time = 20;
+      if (time < 10) 
+      {
+        Console.WriteLine("blocks true 1");
+      } 
+      else if (time < 20) 
+      {
+        Console.WriteLine("blocks true 2");
+      } 
+      else 
+      {
+        Console.WriteLine("blocks else 2");
+      }
+
+      Console.WriteLine(separator);
+
+      /* short hand if..else with ternary operator*/
+      string result = (time < 18) ? "true ternary" : "false ternary";
+      Console.WriteLine(result);
+
+      Console.WriteLine(separator);
     }
   }
 }
