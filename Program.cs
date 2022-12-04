@@ -111,7 +111,7 @@
       int sum = 100 + 100;
       int sum1 = sum - 200;
       int sum2 = sum1 * 100;
-      int sum3 = sum2 / sum2;
+      int sum3 = sum2 / 2;
       int sum4 = sum3 % 2;
       int sum5 = 0;
       int sum6 = sum5++;
@@ -228,6 +228,37 @@
       Console.WriteLine(txt.ToLower());   // Outputs "hello world"
 
       Console.WriteLine(separator);
+
+      /* string concat */
+      string firstName = "Ario ";
+      string lastName = "Damar";
+      string myName = string.Concat(firstName, lastName);
+      Console.WriteLine(myName);
+      
+      /* string interpolation */
+      string ss = $"My name is {firstName} {lastName}";
+      Console.WriteLine(ss);
+
+      /* access strings */
+      string myString = "Damar";
+      Console.WriteLine(myString[0]);  // Outputs "D"
+
+      // Location of the letter D
+      int charPos = myName.IndexOf("D");
+      Console.WriteLine(charPos);
+
+      // Get last name
+      string sss = myName.Substring(charPos);
+      Console.WriteLine(sss);
+
+      Console.WriteLine(separator);
+
+      /* special characters */
+      string sp = "my age is \"" + age + "\" ";
+      Console.WriteLine(sp);
+
+      Console.WriteLine(separator);
+
     }
   }
 }
