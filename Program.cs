@@ -513,6 +513,22 @@ namespace ConsoleApplication
       Console.WriteLine(separator);
 
       /** 
+      * EXCEPTIONS 
+      **/
+      try
+      {
+        int[] myNums = {1, 2, 3};
+        // Console.WriteLine(myNums[1]); // normal
+        Console.WriteLine(myNums[10]); // error INVALID INDEX
+      }
+      catch (Exception e)
+      {
+        Console.WriteLine("Something went wrong. Cause: ");
+        Console.WriteLine(e.Message);
+      }
+      Console.WriteLine(separator);
+
+      /** 
       * METHODS 
       **/
       MyMethod();
