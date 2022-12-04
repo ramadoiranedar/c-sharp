@@ -1,4 +1,5 @@
 ﻿using static ConsoleApplication.Method;
+using static Student;
 namespace ConsoleApplication
 {
   public class Program
@@ -523,9 +524,38 @@ namespace ConsoleApplication
       double myDOUBLE = PlusMethod(5.5, 5.5);
       Console.WriteLine(myINT);
       Console.WriteLine(myDOUBLE);
-      
+
+      Console.WriteLine(separator);      
+
+      /**
+      * OOP
+      **/
+      // init with constructor
+      // inheritance Student
+      Student studentDamar = new Student("raden ario damar");
+      Grade damar = new Grade("raden ario damar");
+      damar.letter = "A";
+      damar.Age = 20;
+      damar.ShowGrade();
+
+      // polymorphism 
+      studentDamar.TestPolymorphism();
+      damar.TestPolymorphism();
+      Console.WriteLine(damar.age);
       Console.WriteLine(separator);
 
+      // abstract
+      damar.TestAbstract();
+      Console.WriteLine(separator);
+
+      // interface
+      damar.TestInterface();
+      damar.TestInterface2();
+      Console.WriteLine(separator);
+
+      // enum
+      Level studentLevel = studentDamar.GetLevel(Level.High);
+      Console.WriteLine(studentLevel);
       Console.WriteLine(separator);
     }
   }
