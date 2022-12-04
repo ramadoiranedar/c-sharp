@@ -390,6 +390,107 @@
         Console.WriteLine(c);
       }
       Console.WriteLine(separator);
+
+      /**
+      * Arrays
+      **/
+      /* delcare array */
+      // Declare an array
+      // string[] cars;
+      string[] brands = {"gucci", "louis vuitton", "stone island"}; // array of string
+      int[] nums = {10, 20, 30, 40}; // array of num
+      // accessing array value
+      Console.WriteLine(brands[0]);
+      Console.WriteLine(nums[3]);
+
+      Console.WriteLine(separator);
+
+      // changing array value
+      brands[1] = "off-white";
+      brands[2] = "balenciaga";
+      brands[0] = "channel";
+      Console.WriteLine(brands[1]);
+      Console.WriteLine(brands[2]);
+      Console.WriteLine(brands[0]);
+
+      Console.WriteLine(separator);
+
+      /* array length */
+      Console.WriteLine("length array brands: " + brands.Length);
+
+      Console.WriteLine(separator);
+
+      /* other ways create an array, and add values later */
+      string[] supercar;
+      supercar = new string[] {"ferrari", "lamborghini", "pagani", "bugatti"};
+      
+      /* loop through arrays */
+      // for lop
+      for (int lta = 0; lta < supercar.Length; lta++) 
+      {
+        Console.WriteLine(supercar[lta]);
+      }
+
+      Console.WriteLine(separator);
+
+      // foreach
+      foreach (string v in supercar) 
+      {
+        Console.WriteLine(v);
+      }
+
+      Console.WriteLine(separator);
+
+      /* sorting arrays */
+      /* string */
+      Array.Sort(cars);
+      foreach (string v in cars)
+      {
+        Console.WriteLine(v);
+      }
+
+      Console.WriteLine(separator);
+
+      /* int */
+      // Sort an int
+      int[] myNumbers = {5, 1, 8, 9};
+      Array.Sort(myNumbers);
+      foreach (int v in myNumbers)
+      {
+        Console.WriteLine(v);
+      }
+
+      Console.WriteLine(separator);
+
+      /* namespace using System.Linq */
+      Console.WriteLine(myNumbers.Max());  // returns the largest value
+      Console.WriteLine(myNumbers.Min());  // returns the smallest value
+      Console.WriteLine(myNumbers.Sum());  // returns the sum of elements
+
+      Console.WriteLine(separator);
+
+      int[,] numbersQue = { {1, 4, 2}, {3, 6, 8} };
+      Console.WriteLine(numbersQue[0, 2]);  // Outputs 2
+
+      Console.WriteLine(separator);
+
+      foreach (int v in numbersQue)
+      {
+        Console.WriteLine(v);
+      } 
+
+      Console.WriteLine(separator);
+      
+      for (int v = 0; v < numbersQue.GetLength(0); v++) 
+      { 
+        for (int j = 0; j < numbersQue.GetLength(1); j++) 
+        { 
+          Console.WriteLine(numbersQue[v, j]); 
+        } 
+      }  
+
+      Console.WriteLine(separator);
+      
     }
   }
 }
