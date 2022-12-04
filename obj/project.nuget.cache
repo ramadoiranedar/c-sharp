@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PS3GaSvTX2dUWA8VaiNHiz4/vjTmnsjVKmb6+Csgpip21xkaiBDrdfW/utiAaF1syizEh5K9fFKhx75nmOxHCA==",
+  "dgSpecHash": "Qcr086CwUMH9yJfD2b+9ugsdR9uSAnKeibVpQDEa04K+lhL4HMxr358ZBRP/5eGmclVelJHhTmj8SokJWcfFgQ==",
   "success": true,
-  "projectFilePath": "/Users/admin/develop/refactory/dotnet/c-sharp/tes.csproj",
+  "projectFilePath": "/Users/admin/develop/refactory/dotnet/c-sharp/c-sharp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

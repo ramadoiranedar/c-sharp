@@ -1,0 +1,15 @@
+/Users/admin/develop/refactory/dotnet/c-sharp/bin/Debug/net7.0/c-sharp
+/Users/admin/develop/refactory/dotnet/c-sharp/bin/Debug/net7.0/c-sharp.deps.json
+/Users/admin/develop/refactory/dotnet/c-sharp/bin/Debug/net7.0/c-sharp.runtimeconfig.json
+/Users/admin/develop/refactory/dotnet/c-sharp/bin/Debug/net7.0/c-sharp.dll
+/Users/admin/develop/refactory/dotnet/c-sharp/bin/Debug/net7.0/c-sharp.pdb
+/Users/admin/develop/refactory/dotnet/c-sharp/obj/Debug/net7.0/c-sharp.csproj.AssemblyReference.cache
+/Users/admin/develop/refactory/dotnet/c-sharp/obj/Debug/net7.0/c-sharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/develop/refactory/dotnet/c-sharp/obj/Debug/net7.0/c-sharp.AssemblyInfoInputs.cache
+/Users/admin/develop/refactory/dotnet/c-sharp/obj/Debug/net7.0/c-sharp.AssemblyInfo.cs
+/Users/admin/develop/refactory/dotnet/c-sharp/obj/Debug/net7.0/c-sharp.csproj.CoreCompileInputs.cache
+/Users/admin/develop/refactory/dotnet/c-sharp/obj/Debug/net7.0/c-sharp.dll
+/Users/admin/develop/refactory/dotnet/c-sharp/obj/Debug/net7.0/refint/c-sharp.dll
+/Users/admin/develop/refactory/dotnet/c-sharp/obj/Debug/net7.0/c-sharp.pdb
+/Users/admin/develop/refactory/dotnet/c-sharp/obj/Debug/net7.0/c-sharp.genruntimeconfig.cache
+/Users/admin/develop/refactory/dotnet/c-sharp/obj/Debug/net7.0/ref/c-sharp.dll

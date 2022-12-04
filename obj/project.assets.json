@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/admin/develop/refactory/dotnet/c-sharp/tes.csproj",
-      "projectName": "tes",
-      "projectPath": "/Users/admin/develop/refactory/dotnet/c-sharp/tes.csproj",
+      "projectUniqueName": "/Users/admin/develop/refactory/dotnet/c-sharp/c-sharp.csproj",
+      "projectName": "c-sharp",
+      "projectPath": "/Users/admin/develop/refactory/dotnet/c-sharp/c-sharp.csproj",
       "packagesPath": "/Users/admin/.nuget/packages/",
       "outputPath": "/Users/admin/develop/refactory/dotnet/c-sharp/obj/",
       "projectStyle": "PackageReference",
