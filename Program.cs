@@ -340,6 +340,56 @@
           break;
       }
       Console.WriteLine(separator);
+
+      /**
+      * Loop
+      **/
+      /* While */
+      int i = 0;
+      while (i < 5) 
+      {
+        Console.WriteLine(i);
+        i++;
+      }
+      Console.WriteLine(separator);
+
+
+      /* Do While */
+      z = 0;
+      do 
+      {
+        Console.WriteLine(z);
+        z++;
+      }
+      while (z < 5);
+      Console.WriteLine(separator);
+
+      /* For */
+      for (int fl = 0; fl < 5; fl++) 
+      {
+        Console.WriteLine(fl);
+      }
+
+      /* nested */
+      for (int ln = 1; ln <= 2; ++ln) 
+      {
+        Console.WriteLine("Outer: " + ln);  // Executes 2 times
+
+        // Inner loop
+        for (int li = 1; li <= 3; li++) 
+        {
+          Console.WriteLine(" Inner: " + li); // Executes 6 times (2 * 3)
+        }
+      }
+      Console.WriteLine(separator);
+
+      /* foreach */
+      string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+      foreach (string c in cars) 
+      {
+        Console.WriteLine(c);
+      }
+      Console.WriteLine(separator);
     }
   }
 }
