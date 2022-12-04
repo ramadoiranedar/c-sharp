@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/admin/develop/refactory/dotnet/tes/tes.csproj",
+      "projectUniqueName": "/Users/admin/develop/refactory/dotnet/c-sharp/tes.csproj",
       "projectName": "tes",
-      "projectPath": "/Users/admin/develop/refactory/dotnet/tes/tes.csproj",
+      "projectPath": "/Users/admin/develop/refactory/dotnet/c-sharp/tes.csproj",
       "packagesPath": "/Users/admin/.nuget/packages/",
-      "outputPath": "/Users/admin/develop/refactory/dotnet/tes/obj/",
+      "outputPath": "/Users/admin/develop/refactory/dotnet/c-sharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/admin/.nuget/NuGet/NuGet.Config"
